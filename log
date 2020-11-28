@@ -1,0 +1,47 @@
+[2020-11-28 21:29:44:493] [4b9] ViewCommands.deleteStash — e=StashNode(gitlens:repository(/home/ahmed/playground/gitlens-issue):stash(3967aafcb901d75113d7a9fdef429883c6f1eb2d)):0, undefined
+[2020-11-28 21:29:44:494] [4bb] GitService.getOrderedRepositories
+[2020-11-28 21:29:44:494] [4bc] GitService.getRepositories
+[2020-11-28 21:29:44:494] [4bc] GitService.getRepositories completed • 0 ms
+[2020-11-28 21:29:44:494] [4bb] GitService.getOrderedRepositories completed • 0 ms
+[2020-11-28 21:29:44:499] [4bd] Keyboard.createScope[0](left)
+[2020-11-28 21:29:44:499] [4bd] Keyboard.createScope[0](left) completed • 0 ms
+[2020-11-28 21:29:44:499] [4be] KeyboardScope.resume(paused=true)
+[2020-11-28 21:29:44:534] [4be] KeyboardScope.resume(paused=true) completed • 34 ms
+[2020-11-28 21:29:46:009] [4bf] Repository(/home/ahmed/playground/gitlens-issue/).stashDelete — e=stash@{0}, t=3967aafcb901d75113d7a9fdef429883c6f1eb2d
+[2020-11-28 21:29:46:009] [4c0] GitService.stashDelete — e=/home/ahmed/playground/gitlens-issue, t=stash@{0}, i=3967aafcb901d75113d7a9fdef429883c6f1eb2d
+[2020-11-28 21:29:46:038] [/home/ahmed/playground/gitlens-issue] git show --format=%H --no-patch stash@{0} • 28 ms 
+[2020-11-28 21:29:46:061] [/home/ahmed/playground/gitlens-issue] git stash drop stash@{0} • 22 ms 
+[2020-11-28 21:29:46:061] [4c0] GitService.stashDelete completed • 51 ms
+[2020-11-28 21:29:46:061] [4bf] Repository(/home/ahmed/playground/gitlens-issue/).stashDelete completed • 51 ms
+[2020-11-28 21:29:46:061] [4c1] KeyboardScope.dispose[1]
+[2020-11-28 21:29:46:062] [4ba] GitCommandsCommand.execute completed
+[2020-11-28 21:29:46:062] [4b9] ViewCommands.deleteStash completed • 1568 ms
+[2020-11-28 21:29:46:068] [4c1] KeyboardScope.dispose[1] completed • index=0 • 6 ms
+[2020-11-28 21:29:46:160] [4c2] Repository(/home/ahmed/playground/gitlens-issue/).onRepositoryChanged — e=Uri(file:///home/ahmed/playground/gitlens-issue/.git/refs/stash)
+[2020-11-28 21:29:46:160] [4c3] Repository(/home/ahmed/playground/gitlens-issue/).fireChange — stash
+[2020-11-28 21:29:46:160] [4c3] Repository(/home/ahmed/playground/gitlens-issue/).fireChange completed • 0 ms
+[2020-11-28 21:29:46:160] [4c2] Repository(/home/ahmed/playground/gitlens-issue/).onRepositoryChanged completed • 0 ms
+[2020-11-28 21:29:46:410] Repository[gitlens-issue(/home/ahmed/playground/gitlens-issue/)] firing changes=stash
+[2020-11-28 21:29:49:644] [4c4] ViewCommands.deleteStash — e=StashNode(gitlens:repository(/home/ahmed/playground/gitlens-issue):stash(3967aafcb901d75113d7a9fdef429883c6f1eb2d)):0, undefined
+[2020-11-28 21:29:49:645] [4c6] GitService.getOrderedRepositories
+[2020-11-28 21:29:49:645] [4c7] GitService.getRepositories
+[2020-11-28 21:29:49:645] [4c7] GitService.getRepositories completed • 0 ms
+[2020-11-28 21:29:49:646] [4c6] GitService.getOrderedRepositories completed • 0 ms
+[2020-11-28 21:29:49:647] [4c8] Keyboard.createScope[0](left)
+[2020-11-28 21:29:49:647] [4c8] Keyboard.createScope[0](left) completed • 0 ms
+[2020-11-28 21:29:49:647] [4c9] KeyboardScope.resume(paused=true)
+[2020-11-28 21:29:49:677] [4c9] KeyboardScope.resume(paused=true) completed • 30 ms
+[2020-11-28 21:29:50:914] [4ca] Repository(/home/ahmed/playground/gitlens-issue/).stashDelete — e=stash@{0}, t=3967aafcb901d75113d7a9fdef429883c6f1eb2d
+[2020-11-28 21:29:50:914] [4cb] GitService.stashDelete — e=/home/ahmed/playground/gitlens-issue, t=stash@{0}, i=3967aafcb901d75113d7a9fdef429883c6f1eb2d
+[2020-11-28 21:29:50:942] [/home/ahmed/playground/gitlens-issue] git show --format=%H --no-patch stash@{0} • 27 ms 
+[2020-11-28 21:29:50:943] [4cb] GitService.stashDelete — failed • 28 ms
+Error: Unable to delete stash; mismatch with stash number
+[2020-11-28 21:29:50:944] [4ca] Repository(/home/ahmed/playground/gitlens-issue/).stashDelete — failed • 29 ms
+Error: Unable to delete stash; mismatch with stash number
+[2020-11-28 21:29:50:944] Drop Stash
+Error: Unable to delete stash; mismatch with stash number
+[2020-11-28 21:29:50:944] ShowMessage(error, 'Unable to delete stash. See output channel for more details', undefined, null)
+[2020-11-28 21:29:50:952] [4cc] KeyboardScope.dispose[1]
+[2020-11-28 21:29:50:953] [4c5] GitCommandsCommand.execute completed
+[2020-11-28 21:29:50:953] [4c4] ViewCommands.deleteStash completed • 1308 ms
+[2020-11-28 21:29:50:967] [4cc] KeyboardScope.dispose[1] completed • index=0 • 14 ms
