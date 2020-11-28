@@ -1,0 +1,16 @@
+{
+  "folders": [
+    {
+      "path": "./"
+    },
+    {
+      "path": "./folder-1"
+    },
+    {
+      "path": "./folder-2"
+    }
+  ],
+  "settings": {
+    "gitlens.outputLevel": "debug"
+  }
+}
